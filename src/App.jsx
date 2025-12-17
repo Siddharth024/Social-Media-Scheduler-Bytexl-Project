@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PostForm from "./components/postform";
 import PostList from "./components/PostList";
-// import Toast from "./components/Toast";
+import Toast from "./components/Toast";
 
 const App = () => {
     const [toast, setToast] = useState(null);

@@ -295,11 +295,11 @@ textarea.input-field {
     margin-top: 0.5rem;
 }
 
-.delete-post-button,
+/* .delete-post-button,
 .edit-post-button {
     background-color: transparent;
     border: none;
-    color: #ef4444;
+    color: #ed4040;
     cursor: pointer;
     padding: 0.5rem;
     border-radius: 0.25rem;
@@ -311,10 +311,34 @@ textarea.input-field {
 
 .edit-post-button {
     color: #10b981;
+} */
+
+.edit-btn {
+    background: #fbbf24;
+    color: #1f2937;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
 }
 
-.delete-post-button:hover {
-    background-color: #fee2e2;
+.delete-btn {
+    background: #ef4444;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #90faba;
+}
+
+.edit-btn:hover {
+    background-color: #19d7fd;
 }
 
 .empty-posts-message {
@@ -351,10 +375,6 @@ textarea.input-field {
 
 .toast-error {
     border-left: 4px solid #ef4444;
-}
-
-.posts-list-container {
-    min-height: 500px;
 }
 
 @media (min-width: 768px) {

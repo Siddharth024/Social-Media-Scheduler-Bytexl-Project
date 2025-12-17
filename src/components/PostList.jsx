@@ -62,16 +62,16 @@ const PostList = ({ posts, onDelete, onEdit }) => {
                                 </div>
                                 <div className="post-actions">
                                     <button
-                                        className="edit-post-button"
+                                        className="edit-btn"
                                         onClick={() => onEdit(post)}
                                     >
-                                        <i className="fas fa-edit"></i>
+                                        <i className="fas fa-edit">Edit</i>
                                     </button>
                                     <button
-                                        className="delete-post-button"
+                                        className="delete-btn"
                                         onClick={() => onDelete(post.id)}
                                     >
-                                        <i className="fas fa-trash-alt"></i>
+                                        <i className="fas fa-trash-alt">Delete</i>
                                     </button>
                                 </div>
                             </div>
